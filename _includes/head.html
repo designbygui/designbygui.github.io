@@ -1,0 +1,93 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+<meta name="description" content="Design By Guillermo" />
+    
+<head>
+<!-- <title>Design by Guilermo</title> -->
+{% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <title>{{ page.title | default: site.github.repository_name }} | {{ site.title | default: site.github.repository_name }}</title>
+{% else %}
+  <title>{{ site.title | default: site.github.repository_name }}</title>
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+
+{% if page.excerpt %}
+    {% if page.shortIntro %}
+        <meta name="description" content="{{ page.shortIntro }}" />
+        <meta property="og:description" content="{{ page.shortIntro }}" />
+        <meta name="twitter:description" content="{{ page.shortIntro }}" />
+    {% else %}
+        <meta name="description" content="{{ page.excerpt| strip_html }}" />
+        <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+        <meta name="twitter:description" content="{{ page.excerpt| strip_html }}" />
+    {% endif %}
+        <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+        <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+    {% if page.images.clickMe %}
+        <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{page.images.clickMe}}" />
+        <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{page.images.clickMe}}" />
+    {% else %}
+        <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{site.defaultImage}}" />
+        <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{site.defaultImage}}" />
+    {% endif %}
+{% else %}
+    <meta name="description" content="{{ site.data.about.description }}">
+    <meta property="og:description" content="{{ site.data.about.description }}" />
+    <meta name="twitter:description" content="{{ site.data.about.description }}" />
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{site.defaultImage}}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{site.defaultImage}}" />
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+{% endif %}
+<meta property="og:type" content="website" />
+<meta name="twitter:creator" content="@designbygui" />
+
+{% if page.summaryLarge %}
+<meta name="twitter:card" content="summary_large_image" />
+{% else %}
+<meta name="twitter:card" content="summary" />
+{% endif %}
+
+<link rel="shortcut icon" href="/favicon.ico"> <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico"> <link rel="icon" type="image/png" sizes="196x196" href="/faviconit/favicon-192.png"> <link rel="icon" type="image/png" sizes="160x160" href="/faviconit/favicon-160.png"> <link rel="icon" type="image/png" sizes="96x96" href="/faviconit/favicon-96.png"> <link rel="icon" type="image/png" sizes="64x64" href="/faviconit/favicon-64.png"> <link rel="icon" type="image/png" sizes="32x32" href="/faviconit/favicon-32.png"> <link rel="icon" type="image/png" sizes="16x16" href="/faviconit/favicon-16.png"> <link rel="apple-touch-icon" href="/faviconit/favicon-57.png"> <link rel="apple-touch-icon" sizes="114x114" href="/faviconit/favicon-114.png"> <link rel="apple-touch-icon" sizes="72x72" href="/faviconit/favicon-72.png"> <link rel="apple-touch-icon" sizes="144x144" href="/faviconit/favicon-144.png"> <link rel="apple-touch-icon" sizes="60x60" href="/faviconit/favicon-60.png"> <link rel="apple-touch-icon" sizes="120x120" href="/faviconit/favicon-120.png"> <link rel="apple-touch-icon" sizes="76x76" href="/faviconit/favicon-76.png"> <link rel="apple-touch-icon" sizes="152x152" href="/faviconit/favicon-152.png"> <link rel="apple-touch-icon" sizes="180x180" href="/faviconit/favicon-180.png"> <meta name="msapplication-TileColor" content="#FFFFFF"> <meta name="msapplication-TileImage" content="/faviconit/favicon-144.png"> <meta name="msapplication-config" content="/faviconit/browserconfig.xml">  
+<link rel="stylesheet" type="text/css" href="/assets/flickity.min.css">     
+<link rel="stylesheet" type="text/css" href="/assets/main.css">   
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">         
+<script src="https://use.fontawesome.com/41adc64e51.js"></script> 
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>      
+<script type="text/javascript" type="javascript" src="/assets/jquery.1.7.1.min.js"></script>   
+<script type="text/javascript" type="javascript" src="/assets/backtotop.js"></script>               
+ 
+<script>
+$(function() {
+    setTimeout(function() {
+            $('.loading').hide();
+    }, 1000);
+}); 
+
+$(document).ready(function(){
+    $(".loader").fadeOut(2000);
+});    
+</script>             
+    
+<style type="text/css">      
+@media screen and (max-width: 890px) {
+.overlay {font-size: 3vw;}     
+}
+
+@media screen and (max-width: 750px) {
+#staystaystay {display:none;}
+#header {top: 0; display:block;}   
+}    
+    
+    
+@font-face {
+font-family: 'Mansalva Regular';
+font-style: normal;
+font-weight: normal;
+src: url('/assets/MansalvaRegular.woff') format('woff');
+}    
+</style>
+</head>

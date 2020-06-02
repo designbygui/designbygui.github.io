@@ -1,0 +1,123 @@
+---
+layout: default
+---   
+
+<style type="text/css">
+@media screen and (max-width: 815px) {
+.pullquote{margin-top: -30px; text-align: center;}     
+.gorgeous{width: 100%;} 
+.gorgeousv2{margin-top: 20px; display:block; width: 100%;}
+.gorgeousv1{display:none; width: 100%;} 
+.sidelogo{width: 60%;}    
+.treacherous {width: 100%;}   
+.treacherousv2 {width: 50%;}
+#welcometonewyork{
+-webkit-column-count: 1; 
+-moz-column-count: 1; 
+column-count: 1; 
+-webkit-column-gap: 0px; 
+-moz-column-gap: 0px; 
+column-gap: 0px; 
+-webkit-column-width: 0px; 
+-moz-column-width: 0px;
+column-width: 0px;}  
+.talent{font-size: 46px;}    
+.name {font-size: 32px;}     
+.caption {font-size: 20px;} 
+}    
+</style>
+
+<div id="red">  
+      <div id="beginagain">
+            
+        <div class="gorgeousv2">
+            <div class="sidelogo">
+            <img src="/images/guid.png">
+            </div>     
+        </div>             
+            
+        <div class="gorgeous">        
+  <div class="thislove">
+<div class="pullquote">I design &amp; build digital content</div>
+<div class="author">Always exploring new skills, I constantly push myself forward to find new ways of expression. When you hire me you get hard work, best practices, and beautiful outcomes. No exceptions.</div>
+  </div>
+        </div>           
+    
+        <div class="gorgeousv1">
+            <div class="sidelogo">
+            <img src="/images/guid.png">
+            </div>     
+        </div>  
+      </div><!--end Begin Again -->  
+      
+    <div id="endgame">   
+        <div class="newromantics">Work.</div>
+        {% for post in site.posts %}
+        {% if post.home %}
+                {% if post.work %} 
+  <div class="treacherous">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{ post.images.frontPage }}">
+   {% if post.black %}<div class="overlay1">
+    {{ post.title }}
+    <div class="button1"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+    </div>{% endif %}
+   {% if post.white %}<div class="overlay2">
+    {{ post.title }}
+    <div class="button2"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+    </div>{% endif %}</a>   
+  </div>
+                {% endif %}                
+        {% endif %} 
+        {% endfor %}
+    </div><!-- end End Game -->                                
+</div><!-- end Red -->   
+
+
+         <div id="fearless">   
+<div id="fifteen">
+            <div class="starlight">Skills</div> 
+    <div class="tagline">Current services, inquire for more</div>
+<div id="welcometonewyork">     
+             <div class="change">
+            <div class="whitehorse">
+                <div class="talent"><div class="ibra"></div></div>
+                <div class="name">Brand Identity</div><div class="caption">Working together to create a memorable icon/image that stands for the brand and identity. Helping establish the work and mission you are trying to portray.</div>
+            </div><!-- end White Horse -->
+        </div><!-- end Change -->
+    
+        <div class="change">
+            <div class="whitehorse">
+                <div class="talent"><div class="ilog"></div></div>
+                <div class="name">Media Connection</div><div class="caption">Creating a message for target audiences through graphic means of communiction by using print and digital representation with the help of multple tools.</div>
+            </div><!-- end White Horse -->
+        </div><!-- end Change --> 
+    
+        <div class="change">
+            <div class="whitehorse">
+                <div class="talent"><div class="ides"></div></div>
+                <div class="name">Web Design</div><div class="caption">Helping you establish an online presence as a direct point of contact for you and your message. After all, I made this site all by myself!</div>
+            </div><!-- end White Horse -->
+        </div><!-- end Change -->
+    </div>
+</div><!-- end Fifteen -->              
+        </div><!-- end Fearless --> 
+
+<div id="red">        
+    <div id="endgame">   
+        <div class="newromantics">Projects</div>
+        {% for post in site.posts %}
+        {% if post.home %}
+                {% if post.project %}        
+        <a href="{{ site.baseurl }}{{ post.url }}"><div class="treacherousv2">
+            <div class="loverv2" style="background-image: url({{ post.images.frontPage }})">
+                 <div class="live">
+                  <div class="clickmev2">View Project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                 </div>
+            </div>
+         </div></a>
+                {% endif %}                
+        {% endif %}         
+        {% endfor %}
+    </div><!-- end End Game -->                                
+</div><!-- end Red -->   

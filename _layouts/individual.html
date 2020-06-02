@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<style type="text/css">    
+@media screen and (max-width: 815px) {  
+.stateofgrace{margin: 100px 0 0 0;}
+#badblood {padding: 0;} 
+}
+</style>
+
+<div id="callitwhatyouwant"> 
+    <div class="stateofgrace">
+        <div class="project">{{ page.title }}</div>
+        <div class="pro">{{ page.type }}</div>
+    </div><!-- end State Of Grace -->   
+</div><!--end Call It What You Want -->  
+
+    <div id="red">
+        <div id="badblood">
+            <div class="fullimage"><img src="{{page.images.individual}}"></div>
+        </div><!-- end Bad Blood --> 
+        
+        <div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}"><i class="fa fa-arrow-left" aria-hidden="true"></i> {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+  {% endif %}
+        </div>      
+    </div><!-- end Red --> 

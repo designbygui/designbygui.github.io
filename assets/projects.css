@@ -1,0 +1,119 @@
+#pink{margin-top: 50px; margin: 0 auto 50px auto; display: block; max-width: 1300px; min-height: 500px; overflow:hidden;}     
+
+#cover{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width:100%;
+    overflow: hidden;
+    background-color: #eee;
+    border-bottom: 1px solid #DCDCDC;
+}
+     
+    
+#portfolio {  
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+        -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+    
+        -webkit-column-width: 25px;
+    -moz-column-width: 25px;
+    column-width: 25px;
+
+}
+.tile { 
+    display: inline-block;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.scale-anm {
+  transform: scale(1);
+  margin-bottom: 21px; 
+  padding: 20px; 
+  background-color: #fff;
+}
+
+.tile img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 10px solid #f15642;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  cursor: pointer;    
+}
+
+.tile:hover .overlay {
+    opacity: 1;
+}
+    
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+    
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 10px 8px 8px 8px; line-height: 18px; font-family: 'Baloo', cursive; background-color: #f7f7f7; border: 1px solid #f0f0f0; font-size: 18px; text-decoration: none; letter-spacing: 2px; color: #2c2c2c;
+text-align: center; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+}
+    
+    .text:hover {background: #eee;}    
+
+#navs {
+    position: relative;
+    margin: 15px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.iall{
+    background: url(/images/icon_all.png) no-repeat center center; 
+background-size: 40px 40px;  padding:0px 0px 40px 45px; margin-bottom: 5px;}
+
+.ipro{
+    background: url(/images/icon_project.png) no-repeat center center; 
+background-size: 40px 40px;  padding:0px 0px 40px 45px; margin-bottom: 5px;}
+
+.iart{
+    background: url(/images/icon_art.png) no-repeat center center; 
+background-size: 40px 40px;  padding:0px 0px 40px 45px; margin-bottom: 5px;}
+
+.ilog{
+    background: url(/images/icon_logo.png) no-repeat center center; 
+background-size: 40px 40px;  padding:0px 0px 40px 45px; margin-bottom: 5px;}
+
+.ipho {
+    background: url(/images/icon_photo.png) no-repeat center center;
+background-size: 40px 40px;  padding:0px 0px 40px 45px; margin-bottom: 5px;}
+
+.btn {
+display: inline-block; cursor: pointer;
+padding: 8px; margin: 5px 5px; line-height: 10px;
+font-size: 12px; font-family: 'Rubik', sans-serif;
+text-align: center; color: #000; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.btn:hover {
+  background: #fff; 
+  color:#f15642; 
+} 

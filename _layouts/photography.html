@@ -1,0 +1,62 @@
+---
+layout: default
+--- 
+
+<link rel="stylesheet" type="text/css" href="/assets/projects.css">
+
+<style type="text/css">
+@media screen and (max-width: 930px) {
+.stateofgrace{margin: 80px 0 0 0;}
+    
+#portfolio {  
+    margin: 0px;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;
+    column-count: 2;
+        -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+        -webkit-column-width: 20px;
+    -moz-column-width: 20px;
+    column-width: 20px;
+
+}
+}      
+
+@media screen and (max-width: 600px) { 
+.scale-anm {padding: 0px;}    
+#portfolio {  
+    margin: 0px;
+    -webkit-column-count: 1; 
+    -moz-column-count: 1;
+    column-count: 1;
+        -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+        -webkit-column-width: 0px;
+    -moz-column-width: 0px;
+    column-width: 0px;
+}
+</style>
+
+<div id="callitwhatyouwant"> 
+    <div class="stateofgrace">
+        <div class="project">Photography</div>
+        <div class="pro">Captured on film</div>
+    </div><!-- end State Of Grace -->   
+</div><!--end Call It What You Want -->  
+
+    <div id="pink">              
+            <div id="portfolio">  
+                {% for post in site.posts %} 
+{% if post.photo %}                 
+  <div class="tile scale-anm "{{ post.catagory}}" all">
+        <img src="{{ post.images.individualSmall }}"/>
+<a href="{{ site.baseurl }}{{ post.url }}"><div class="overlay">
+    <div class="text">View <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+</div></a>
+  </div> 
+{% endif %}                 
+                {% endfor %}                  
+            </div>                
+    </div><!-- end Pink -->

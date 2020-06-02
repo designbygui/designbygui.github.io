@@ -1,0 +1,17 @@
+title: Design by Guillermo
+baseurl: ""
+url: "http://guillermo.design"
+permalink: /projects/:title
+defaultImage: /images/me_crop.jpg
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - github-pages
+  - jemoji
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+jekyll-mentions:
+  base_url: https://instagram.com/

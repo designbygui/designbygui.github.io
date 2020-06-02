@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<style type="text/css"> 
+    body{background-color: #fcfcfc;} a{text-decoration: none!important;} 
+@media screen and (max-width: 815px) {
+.stateofgrace{margin: 100px 0 0 0;}
+.falsegod {width: 100%;} 
+.youneedtocalmdown {width: 100%;} 
+.sidehustle {margin: 20px 0 0 0; padding: 0px;}
+.thearcher {padding-left: 20px; font-size: 45px;}  
+}  
+       
+@media screen and (max-width: 650px) {
+.flickity-prev-next-button{display:none;}
+}    
+</style>    
+
+<div id="callitwhatyouwant"> 
+    <div class="stateofgrace">
+        <div class="project">{{ page.title }}</div>
+        <div class="pro">{{ page.type }}</div>
+    </div><!-- end State Of Grace -->   
+</div><!--end Call It What You Want -->  
+
+<div id="red">        
+    <div id="delicate">
+        <div class="falsegod">
+            <img src="{{page.images.falseGod}}">
+        </div><!-- end False God -->  
+        <div class="youneedtocalmdown">
+            <div class="sidehustle">
+                <div class="sideoutfit">
+                <div class="sidecontent">
+                    {% if page.client %}
+                        <div class="ttle">Client</div>
+                        {{ page.client }}
+                    {% endif %}
+                    {% if page.purpose %}
+                        <div class="ttle">Purpose</div>
+                        {{ page.purpose }}
+                    {% endif %}
+                    </div>               
+                <div class="sidecontent">
+                    <div class="ttle">Back Story</div>
+                    {{ page.backStory }}   
+                </div>               
+                <div class="sidecontent">
+                    <div class="ttle">Year</div>
+                    {{ page.date | date: "%Y" }}   
+                </div>              
+                <div class="sidecontent">
+                    <div class="ttle">Services</div>
+                    {% for skill in page.tags %} {{skill}}{% if forloop.last != true %}, {% endif %}{% if forloop.rindex == 2 %}and {% endif %} {% endfor %}
+                </div>              
+                </div><!-- Side Outfit -->
+            </div><!-- Side Hustle -->             
+        </div><!-- end You Need to Calm Down -->   
+    </div><!-- end Delicate -->          
+</div><!-- end Red -->
+
+<div id="onlytheyoung">
+    <div id="blue">
+        <div class="thearcher">More Projects</div>    
+        <div class="carousel" data-flickity='{ "groupCells": true , "cellAlign": "left"}'>
+            {% for post in site.posts %}
+               {% if post.home %} 
+                {% if page.id != post.id %}
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        <div class="carousel-cell"><div class="nameplate" style="background-image: url({{ post.images.clickMe }})" />
+                            {{ post.title }}<div class="nextarrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div></div></div></a>
+                {% endif %}
+               {% endif %}
+            {% endfor %}
+        </div><!-- Carousel -->
+    </div><!-- Blue -->
+</div><!-- end Only The Young -->
