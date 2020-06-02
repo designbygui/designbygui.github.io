@@ -13,5 +13,5 @@ home: y
 images:
     clickMe: /images/tie_pro.png
     falseGod: /images/tieknot.png
-    frontPage: /images/tieknt_img.png
+    frontPage: /images/tie_proj.png
 ---
