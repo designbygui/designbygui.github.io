@@ -11,7 +11,7 @@ a, a:active{cursor: pointer; color:#f15642; -webkit-transition: all 0.3s ease-in
 .gorgeousv1{display: block; float: left; width: 50%; height: auto;}
 .gorgeousv2{display: none; float: left; width: 50%; height: auto;}
 .thislove{margin: 100px auto 0; width: 80%;} 
-.author{font-size: 20px; font-weight: 500; line-height: 28px;}
+.author{font-size: 20px; font-weight: 400; line-height: 28px;}
 .pullquote{margin: 20px 0 20px 0; font-size: 40px; font-family: 'Mansalva Regular'; line-height: auto; color: #2c2d2d;}
 .sidelogo{margin: 0 auto; width: 80%;}
 .sidelogo img {width: 100%;}
