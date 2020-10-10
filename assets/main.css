@@ -1,4 +1,4 @@
-body{margin: 0; color: #000; font-size: 14px; line-height: normal; font-family: 'Rubik', sans-serif; background-color: #f5f5f7;}
+body{margin: 0; color: #000; font-size: 14px; line-height: normal; font-family: 'Raleway', sans-serif; background-color: #f5f5f7;}
 a, a:active{cursor: pointer; color:#f15642; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}a:hover{color:#6f3332;}p{margin: 20px; line-height:normal;}img {pointer-events: none;}     
 #red{margin: 0 auto; display: block; max-width: 1150px; width: 100%!important; overflow:hidden}     
 #staystaystay{margin: 0 auto; position: relative; width: 100%; background-color: #fff;} .logo{margin: 0 auto; float: left; width: 249px;} .dbg{background: url(/images/dabg.png) no-repeat center center; background-size: 250px auto; padding:16px 0px;}
@@ -16,19 +16,19 @@ a, a:active{cursor: pointer; color:#f15642; -webkit-transition: all 0.3s ease-in
 .sidelogo{margin: 0 auto; width: 80%;}
 .sidelogo img {width: 100%;}
 #callitwhatyouwant{margin: 0 0 70px 0; display: block; position: relative; line-height: normal; letter-spacing: inherit;}        
-.stateofgrace{margin: 70px 0 0 0; display: block; position: relative; text-align: center; cursor: default;} .project {font-family: 'Mansalva Regular'; font-size: 70px; line-height: 120px; color: #2c2c2c;} .pro {font-family: 'Rubik', sans-serif; font-size: 24px; color: #000; text-align: center;}        
-#endgame{margin: 15px 0 50px 0; height: 100%!important; overflow: hidden;}
+.stateofgrace{margin: 70px 0 0 0; display: block; position: relative; text-align: center; cursor: default;} .project {font-family: 'Mansalva Regular'; font-size: 70px; line-height: 120px; color: #2c2c2c;} .pro {font-family: 'Raleway', sans-serif; font-size: 24px; color: #000; text-align: center;}        
+#endgame{margin: 25px 0 50px 0; height: 100%!important; overflow: hidden;}
 #fearless{margin: 0p 0px 120px 0; height: 100%!important; overflow: hidden; background-image: -webkit-gradient(linear,left top,left bottom,from(#e0f3fa),to(rgba(224,238,250,.63))); background-image: linear-gradient(180deg,#e0f3fa,rgba(224,238,250,.63));}     
 #fifteen{margin: 0 auto; max-width: 1150px; overflow: hidden}
 .newromantics{margin: 0 0 -30px; display: block; position: relative; font-family: 'Baloo', cursive; font-size: 100px; font-weight: 500; line-height: auto; color: #000; cursor: default;}
 .thearcher{margin: 0 auto 0; display: block; position: relative; font-family: 'Baloo', cursive; font-size: 60px; font-weight: 500; line-height: auto; color: #000; cursor: default;}  
 .starlight{margin: 50px 0 0; display: block; position: relative; font-family: 'Baloo', cursive; font-size: 50px; font-weight: 500; text-align: center; line-height: 60px; color: #000; cursor: default;}
 .tagline{margin: 0 auto 40px; font-size: 16px; font-weight: 500; text-align: center; line-height: auto;}
-#lover{display: block; margin: 0 auto 45px; padding: 25px 25px 0px 25px; background-color: #fff; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 20px; -moz-column-gap: 20px; column-gap: 20px; -webkit-column-width: 20px; -moz-column-width: 20px; column-width: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+#lover{display: block; margin: 0 auto 35px; padding: 25px 25px 5px 25px; background-color: #fff; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 20px; -moz-column-gap: 20px; column-gap: 20px; -webkit-column-width: 20px; -moz-column-width: 20px; column-width: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
 .treacherous{display: block; transform:  scale(1); margin-bottom: 20px;}
 .treacherous img{display: block; width: 100%; height: auto; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;} 
-.overlay{position: absolute; bottom: 20px; transform: translate(-50%); left: 50%; background-color: #fff; width: 92%; font-size: 24px; font-family: 'Rubik', sans-serif; font-weight: 500; text-decoration: none; color: #2c2c2c; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; line-height: 40px;}
-.noticeme{padding: 20px;}
+.overlay{position: absolute; bottom: 20px; transform: translate(-50%); left: 50%; background-color: #fff; width: 92%; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 500; text-decoration: none; color: #2c2c2c; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; line-height: 40px; 
+-webkit-box-shadow: 0px 5px 15px 5px rgba(212,212,212,1); -moz-box-shadow: 0px 5px 15px 5px rgba(212,212,212,1); box-shadow: 0px 5px 15px 5px rgba(212,212,212,1);.noticeme{padding: 20px;}
 .button{float: right; display:inline-block; padding: 5px; color: #2c2c2c; border: 2px solid #2c2c2c; font-size: 20px; font-family: 'Baloo', cursive; text-decoration: none; height: 25px; width: 25px; line-height: 27px; text-align: center; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;}
 .treacherous:hover .button{color: #fff; background-color: #2c2c2c;}
 .treacherousv2{position: relative; float: left; display: inline-block; width: 33.333%; height: 250px; overflow: hidden;}
@@ -46,9 +46,9 @@ text-align: center; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 
 .whitehorse{position: relative; width: 100%; height: auto; text-align: center;} 
 .talent{font-size: 50px; line-height: 0px;}    
 .name{margin: 15px auto; font-size: 26px; font-weight: 500; line-height: auto; text-align: center;}     
-.caption {font-size: 14px;} 
+.caption {font-size: 14px; line-height: 20px;} 
 #delicate{margin: 15px 0 120px 0; height: 100%!important; overflow: hidden;}
-.holyground{display: block; float: left; width: 50%; min-height: 600px; background-color: #5C8481; background-size: cover; background-repeat: no-repeat; background-position: center center;} .who{margin: 120px 0 0 50px; padding: 0 20px 0 0; max-width: 350px; font-size: 55px; font-family: 'Rubik', sans-serif; line-height: normal; color: #fff; letter-spacing: inherit;} .dash{margin: 10px 0 0 50px; width: 100%; font-size: 40px; font-family: 'Rubik', sans-serif; line-height: normal; color: #fff; letter-spacing: inherit;}.what, .where{margin: 20px 0 0 50px; padding: 0 25px 0 0; max-width: 380px; font-size: 16px; font-family: 'Rubik', sans-serif; font-weight: 400; line-height: 28px; color: #fff; letter-spacing: inherit;} .mail {margin: 40px 0 0 50px; font-size: 40px; color: #fff;}
+.holyground{display: block; float: left; width: 50%; min-height: 600px; background-color: #5C8481; background-size: cover; background-repeat: no-repeat; background-position: center center;} .who{margin: 120px 0 0 50px; padding: 0 20px 0 0; max-width: 350px; font-size: 55px; font-family: 'Raleway', sans-serif; line-height: normal; color: #fff; letter-spacing: inherit;} .dash{margin: 10px 0 0 50px; width: 100%; font-size: 40px; font-family: 'Raleway', sans-serif; line-height: normal; color: #fff; letter-spacing: inherit;}.what, .where{margin: 20px 0 0 50px; padding: 0 25px 0 0; max-width: 380px; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 28px; color: #fff; letter-spacing: inherit;} .mail {margin: 40px 0 0 50px; font-size: 40px; color: #fff;}
 .falsegod{display:inline-block; position: relative; float: left; width: 70%;} .falsegod img{width: 100%;}      
 .youneedtocalmdown{display:inline-block; float: left; width: 30%;}        
 .sidehustle{padding: 0 0 0 30px;} .sideoutfit{display:block; padding: 25px; background-color: #f7f7f7; border: 1px solid #f0f0f0;} .sidecontent{margin: 0px 0px 20px 0px; padding: 0 0 20px 0; display: block; font-size: 14px; font-weight: 300; line-height: 22px; border-bottom: 2px solid #d6d6d6;} .sidecontent:last-child{border-bottom: 0px; margin: 0px;} .ttle {padding: 0 0 2px 0; font-size: 16px; font-weight: 500; color: #2c2c2c;}                                             
@@ -69,7 +69,7 @@ background-position: center center;} .nameplate:hover{background-image: url(/ima
 .PageNavigation {margin: 0 0 30px 0; display: block; width: auto; font-size: 14px; font-weight: 500; word-spacing: 2px; overflow: hidden;}
 .PageNavigation a{margin: 1em 0; display: inline-block; padding: 10px; width: auto; float: left; text-decoration: none; background-color: #fff;}
 .PageNavigation .next{float: right; text-align: right;}
-#londonboy{margin: auto; bottom: 0; width: 100%; font-family: 'Rubik', sans-serif; font-size: 10px; font-weight: 400; line-height: inherit; letter-spacing: 1px; text-align:center; overflow: hidden; background-color: #fdfdfd;} .telly{margin-bottom: 30px; border-top: 2px solid #e6e6e6;} .info{padding: 30px;}
+#londonboy{margin: auto; bottom: 0; width: 100%; font-family: 'Raleway', sans-serif; font-size: 10px; font-weight: 400; line-height: inherit; letter-spacing: 1px; text-align:center; overflow: hidden; background-color: #fdfdfd;} .telly{margin-bottom: 30px; border-top: 2px solid #e6e6e6;} .info{padding: 30px;}
 #back_to_top{bottom: 10px; right: 10px; position: fixed; z-index: 100;} 
 .arrow a{position: relative; display: inline-block; width: auto; padding:10px; color:#000; font-size: 18px; text-transform: uppercase; background-color: white; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; border-radius: 5px 5px 5px 5px;  -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; z-index: 40;} .arrow a:hover{color: white; background-color:#000;}
 .loading{position: fixed; text-align: center; width: 100%; height: 100%; z-index: 999; top: 0; background-color: #fff;} .loader{margin: 0; display: inline-block;} svg path, svg rect{fill: #f15642;}
