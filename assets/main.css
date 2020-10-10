@@ -27,8 +27,8 @@ a, a:active{cursor: pointer; color:#f15642; -webkit-transition: all 0.3s ease-in
 #lover{display: block; margin: 0 auto 35px; padding: 25px 25px 5px 25px; background-color: #fff; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 20px; -moz-column-gap: 20px; column-gap: 20px; -webkit-column-width: 20px; -moz-column-width: 20px; column-width: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
 .treacherous{display: block; transform:  scale(1); margin-bottom: 20px;}
 .treacherous img{display: block; width: 100%; height: auto; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;} 
-.overlay{position: absolute; bottom: 20px; transform: translate(-50%); left: 50%; background-color: #fff; width: 92%; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 500; text-decoration: none; color: #2c2c2c; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; line-height: 40px; 
--webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}.noticeme{padding: 20px;}
+.overlay{position: absolute; bottom: 20px; transform: translate(-50%); left: 50%; background-color: #fff; width: 92%; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 500; text-decoration: none; color: #2c2c2c; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; line-height: 40px;}
+.noticeme{padding: 20px;}
 .button{float: right; display:inline-block; padding: 5px; color: #2c2c2c; border: 2px solid #2c2c2c; font-size: 20px; font-family: 'Baloo', cursive; text-decoration: none; height: 25px; width: 25px; line-height: 27px; text-align: center; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;}
 .treacherous:hover .button{color: #fff; background-color: #2c2c2c;}
 .treacherousv2{position: relative; float: left; display: inline-block; width: 33.333%; height: 250px; overflow: hidden;}
