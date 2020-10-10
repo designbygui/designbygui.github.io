@@ -52,16 +52,17 @@ column-width: 0px;}
       
     <div id="endgame">   
         <div class="newromantics">Work.</div>
+          <div id="lover">              
         {% for post in site.posts %}
         {% if post.home %}
                 {% if post.work %} 
   <div class="treacherous">
       <a href="{{ site.baseurl }}{{ post.url }}">
           <img src="{{ post.images.frontPage }}">
-   <div class="overlay1">
+   <div class="overlay">
          <div class="noticeme">   
     {{ post.title }}
-    <div class="button1"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+    <div class="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
     </div>
          </div>
       </a>   
@@ -69,6 +70,7 @@ column-width: 0px;}
                 {% endif %}                
         {% endif %} 
         {% endfor %}
+      </div><!-- end Lover -->           
     </div><!-- end End Game -->                                
 </div><!-- end Red -->   
 
