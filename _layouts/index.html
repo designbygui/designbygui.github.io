@@ -11,6 +11,16 @@ layout: default
 .sidelogo{width: 60%;}    
 .treacherous {width: 100%;}   
 .treacherousv2 {width: 50%;}
+#lover{
+-webkit-column-count: 1; 
+-moz-column-count: 1; 
+column-count: 1; 
+-webkit-column-gap: 0px; 
+-moz-column-gap: 0px; 
+column-gap: 0px; 
+-webkit-column-width: 0px; 
+-moz-column-width: 0px;
+column-width: 0px;}        
 #welcometonewyork{
 -webkit-column-count: 1; 
 -moz-column-count: 1; 
@@ -59,7 +69,7 @@ column-width: 0px;}
   <div class="treacherous">
       <a href="{{ site.baseurl }}{{ post.url }}">
           <img src="{{ post.images.frontPage }}">
-   <div class="overlay">
+   <div class="overl">
          <div class="noticeme">   
     {{ post.title }}
     <div class="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
