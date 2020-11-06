@@ -50,14 +50,14 @@ text-align: center; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 
 #delicate{margin: 15px 0 120px 0; height: 100%!important; overflow: hidden;}
 #lovestory{margin: 0 auto; height: 100%!important; overflow: hidden; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;}
 .holyground{display: block; float: left; width: 50%; min-height: 600px; background-color: #5C8481; background-size: cover; background-repeat: no-repeat; background-position: center center;} .who{margin: 120px 0 0 50px; padding: 0 20px 0 0; max-width: 350px; font-size: 55px; font-family: 'Raleway', sans-serif; font-weight: 500; line-height: normal; color: #fff; letter-spacing: inherit;} .dash{margin: 10px 0 0 50px; width: 100%; font-size: 40px; font-family: 'Raleway', sans-serif; line-height: normal; color: #fff; letter-spacing: inherit;}.what, .where{margin: 20px 0 0 50px; padding: 0 25px 0 0; max-width: 380px; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 28px; color: #fff; letter-spacing: inherit;} .mail {margin: 40px 0 0 50px; font-size: 40px; color: #fff;}
-.falsegod{display:inline-block; position: relative; float: left; width: 70%;} .falsegod img{width: 100%;}
 .tiny-boxes{margin: 10px 0 0 0; float:left; overflow: hidden; border: 2px solid #eee; padding: 20px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;}
 .title{font-size: 26px; font-weight: 500; line-height: auto;}     
-.desc {font-size: 14px; line-height: 20px;} 
+.desc{font-size: 14px; line-height: 20px;} 
 .starlight2{margin:20px 0 0; display: block; font-family: 'Baloo', cursive; font-size: 50px; font-weight: 500; text-align: left; line-height: 60px; color: #000; cursor: default;}
 .academy-badge img{width: 200px;}
-.youneedtocalmdown{display:inline-block; float: left; width: 30%;}        
-.sidehustle{padding: 0 0 0 30px;} .sideoutfit{display:block; padding: 25px; background-color: #f7f7f7; border: 1px solid #f0f0f0;} .sidecontent{margin: 0px 0px 20px 0px; padding: 0 0 20px 0; display: block; font-size: 14px; font-weight: 300; line-height: 22px; border-bottom: 2px solid #d6d6d6;} .sidecontent:last-child{border-bottom: 0px; margin: 0px;} .ttle {padding: 0 0 2px 0; font-size: 16px; font-weight: 500; color: #2c2c2c;}                                             
+.falsegod{display:block; position: relative; float: left; width: 100%;} .falsegod img{width: 100%;}      
+.youneedtocalmdown{margin: 0 auto; overflow: hidden; display:block; width: 80%;}        
+.sidehustle{margin-top: 50px;} .sideoutfit{display:block; padding: 50px; background-color: #f7f7f7;  overflow: hidden; border: 1px solid #f0f0f0; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;} .sidecontent{margin: 20px; float: left;  width: 40%; display: block; font-size: 14px; font-weight: 300; line-height: 22px;} .ttle {padding: 0 0 2px 0; font-size: 16px; font-weight: 500; color: #2c2c2c;}                                             
 #22{margin: 0; height: 100%!important; overflow:hidden;}
 .wrapper{margin: 0 auto 150px; display: block; max-width: 1150px; width: 100%!important; display: flex; justify-content: space-between;}
 .theman{display:inline-block; float: left; width: 100%;} .theman img{width: 100%;}
